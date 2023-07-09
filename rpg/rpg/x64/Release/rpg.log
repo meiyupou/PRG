@@ -1,0 +1,11 @@
+﻿  rpg.cpp
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(40,5): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(40,5): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [7]”转换为“LPCTSTR”
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(40,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(40,5): message : 尝试匹配参数列表“(IMAGE *, const char [7])”时
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(41,5): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+D:\visual studio\VC\Auxiliary\VS\include\easyx.h(258,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(41,5): message : “void loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“const char [9]”转换为“LPCTSTR”
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(41,21): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\gitcode\tinytetris_xuexi\rpg\rpg\rpg.cpp(41,5): message : 尝试匹配参数列表“(IMAGE *, const char [9])”时
